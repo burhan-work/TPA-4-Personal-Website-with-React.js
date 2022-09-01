@@ -1,0 +1,33 @@
+nav {
+    height: 5rem;
+    width: 100vw;
+    /* background: #222; */
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.nav__toggle-btn {
+    display: none;
+}
+
+.nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 4.5rem;
+}
+
+.nav__links {
+    display: flex;
+    gap: 3.5rem;
+}
