@@ -1,0 +1,39 @@
+.form{
+  flex: 1 1 60rem;
+  background: #fff;
+  padding: 0 2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border-radius: .5;
+  margin: 5rem 20rem 5rem 20rem;
+}
+
+.form .box,
+.form textarea{
+  width: 100%;
+  border-bottom: .1rem solid #333;
+  color: #333;
+  text-transform: none;
+  font-size: 1rem;
+  padding: .5rem 0;
+  margin: .5rem 0;
+}
+
+.form .box:focus,
+.form textarea:focus{
+  border-color: var(--main-color);
+}
+
+.form .box::placeholder,
+.form textarea::placeholder{
+  text-transform: capitalize;
+}
+
+.form textarea{
+  height: 10rem;
+  resize: none;
+}
+
+.form .btn{
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}

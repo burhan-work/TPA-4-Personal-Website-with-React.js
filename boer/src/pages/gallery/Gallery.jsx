@@ -1,9 +1,16 @@
-import './gallery.css';
+import React from 'react';
+import Footer from '../../components/footer/Footer';
+import Navbar from '../../components/navbar/Navbar';
+import Picture from '../../components/picture/Picture';
 
-const Gallery = () => {
+function Gallery() {
   return (
-    <div>Gallery</div>
-  )
+    <>
+      <Navbar />
+      <Picture />
+      <Footer />
+    </>
+  );
 }
 
-export default Gallery
+export default Gallery;
