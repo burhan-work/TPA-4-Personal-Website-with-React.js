@@ -28,15 +28,15 @@ function About() {
         </div>
       </div>
   
-      <div class="contact">
-        <div class="icon">
-          <i class="fas fa-envelope"></i>
+      <div className="contact">
+        <div className="icon">
+          <i className="fas fa-envelope"></i>
             <h3>My Email</h3>
             <p>burhan.bnw@gmail.com</p>
         </div>
 
-        <div class="icon">
-          <i class="fas fa-phone"></i>
+        <div className="icon">
+          <i className="fas fa-phone"></i>
               <h3>My Number</h3>
               <p>+62 8786-3502-137</p>
         </div>

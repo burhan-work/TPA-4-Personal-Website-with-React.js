@@ -15,7 +15,7 @@ function Contact() {
           <input type="email" placeholder="Email" className="box" />
           <input type="number" placeholder="Number" className="box" />
           <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-          <input type="submit" class="btn" value="send message"></input>
+          <input type="submit" className="btn" value="send message"></input>
         </div>
         {/* <div className="form">
           {alert("Thanks for your message")}
